@@ -23,3 +23,16 @@ meusTudosCopia.splice(1,1)
 
 console.log(meusTudos)
 console.log(meusTudosCopia)
+
+
+//Trocando o primeiro item com o último (Ex do Luan)
+
+const lista = [false, null, 1, "banana", undefined]
+
+const primaryPosition = lista[0]
+const lastPosition = lista[lista.length -1]
+
+lista[lista.length -1] = primaryPosition
+lista[0] = lastPosition
+
+console.log(lista)
